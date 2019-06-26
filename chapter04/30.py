@@ -4,7 +4,8 @@ from itertools import islice
 with open("/mnt/c/Users/yui/Documents/work/100knock/neko.txt.mecab") as f:
     new_line = []
     new_lines = []
-    for line in islice(f,10):
+    for line in islice(f,5000):
+    #for line in f:
         if len(line.strip().split('\t'))<2:
             new_line = []
         else:
