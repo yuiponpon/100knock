@@ -10,7 +10,7 @@ neko.txt.cabocha
 neko.txt.mecab
 100knock_30
 matplotlib_test.ipynb
-_pycache_
+__pycache__
 a42result.txt
 a43result.txt
 dg44
